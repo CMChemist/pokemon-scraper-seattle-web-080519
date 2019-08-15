@@ -32,6 +32,7 @@ class Pokemon
             name: found_pokemon[1],
             type: found_pokemon[2],
             db: db
+            
         }
 
         Pokemon.new(pokemon_hash)
